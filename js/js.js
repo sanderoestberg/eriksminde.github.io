@@ -11,7 +11,7 @@ window.addEventListener('scroll', function(e) {
 
               var firstTop = target[index].getBoundingClientRect().top;
               var winScrollTop = window.pageYOffset;
-              var shiftDistance = (firstTop - winScrollTop)*-0.2-300;
+              var shiftDistance = (firstTop - winScrollTop)*-0.5-1;
 
               target[index].style.transform = 'translate3d(0px, '+shiftDistance+'px, 0px)';
           }

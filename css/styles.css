@@ -13,10 +13,14 @@ body{
   top: 0;
 }
 
-
+.bar{
+  padding-top: 100px;
+  width: 100%;
+  background-color: #5e7f7d;
+}
 
 .forside{
-  height: 110vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
