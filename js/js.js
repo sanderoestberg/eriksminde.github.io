@@ -2,7 +2,8 @@
 window.addEventListener('scroll', function(e) {
   const target = document.querySelectorAll('.scroll');
 
-  var index = 0, length = target.length;
+  var index = 0,
+    length = target.length;
   for (index; index < length; index++) {
     if (target[index].getBoundingClientRect().top >= 0 || target[index].getBoundingClientRect().bottom < window.innerHeight) {
       var firstTop = target[index].getBoundingClientRect().top;

@@ -1,4 +1,4 @@
-body{
+body {
   font-family: sans-serif;
   background-color: #5e7f7d;
   margin: 0;
@@ -13,10 +13,10 @@ body{
   top: 0;
 }
 
-#arrow{
-display: flex;
-justify-content: center;
-margin-top: 40px;
+#arrow {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .hop {
@@ -27,56 +27,55 @@ margin-top: 40px;
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-30px);
   }
+
   60% {
     transform: translateY(-15px);
   }
 }
-.bar{
+
+.bar {
   padding-top: 100px;
   width: 100%;
   background-color: #5e7f7d;
 }
 
-.forside{
+.forside {
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.forside h1{
+.forside h1 {
   font-size: 72px;
   color: yellow;
   text-align: center;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
 }
 
-.forside h1 span{
+.forside h1 span {
   color: #f9dcc6;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
 }
 
-.data-grid{
+.data-grid {
   display: grid;
   grid-template-columns: 50% 300px;
-
-
 }
 
-.data-grid p{
+.data-grid p {
   align-self: center;
   justify-self: flex-end;
   text-align: center;
   text-transform: uppercase;
   color: #f9dcc6;
-
-
 }
 
-.data-grid p span{
+.data-grid p span {
   text-align: center;
   display: flex;
   font-size: 130px;
@@ -87,38 +86,34 @@ margin-top: 40px;
   height: 300px;
   width: 300px;
   color: #5e7f7d;
-
 }
 
-
-.container{
-
+.container {
   text-align: center;
   max-width: 960px;
   margin: 0 auto;
   font-size: 24px;
   padding: 0px 25px;
   padding-bottom: 75px;
-
 }
 
-.container p{
+.container p {
   color: #f9dcc6;
 }
 
-.container article p{
+.container article p {
   color: #f9dcc6;
   margin-bottom: 40px;
 }
 
-.container article h2{
+.container article h2 {
   font-size: 72px;
   color: yellow;
   text-align: center;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
 }
 
-.container article p span{
+.container article p span {
   background-color: #f9dcc6;
   border-radius: 100%;
   color: #5e7f7d;
@@ -126,9 +121,7 @@ margin-top: 40px;
   padding: 32px 10px;
 }
 
-
-
-.efterskole{
+.efterskole {
   height: 110vh;
   width: 100%;
   margin: 0;
@@ -137,41 +130,37 @@ margin-top: 40px;
   align-items: flex-start;
 }
 
-.efterskoletitle{
-display: flex;
-color: yellow;
-font-size: 65px;
-align-items: center;
-margin: 0;
-text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
-
+.efterskoletitle {
+  display: flex;
+  color: yellow;
+  font-size: 65px;
+  align-items: center;
+  margin: 0;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
 }
 
-.efterskoletitle{
+.efterskoletitle {}
 
-}
 #myVideo2 {
   position: absolute;
   width: 100%;
   z-index: -1;
 }
 
-
-.new{
+.new {
   padding: 75px;
   /*background-image: url(../images/bike.gif);
   background-repeat: no-repeat;
   position: relative;
   z-index: 20;*/
   background-color: #f9dcc6;
-
 }
 
-.new article p{
+.new article p {
   z-index: 10;
 }
 
-.skew-left{
+.skew-left {
   margin-top: -100px;
   margin-bottom: -100px;
   height: 200px;
@@ -179,16 +168,17 @@ text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
   background-color: #f9dcc6;
   transform: skew(0deg, -3deg);
 }
-.skew-right{
-    margin-top: -100px;
-    margin-bottom: -100px;
-    height: 200px;
-    width: 100%;
-    background-color: #f9dcc6;
-    transform: skew(0deg, 3deg);
 
+.skew-right {
+  margin-top: -100px;
+  margin-bottom: -100px;
+  height: 200px;
+  width: 100%;
+  background-color: #f9dcc6;
+  transform: skew(0deg, 3deg);
 }
-.malthe{
+
+.malthe {
   margin-top: 100px;
   height: 100vh;
   display: flex;
@@ -199,19 +189,19 @@ text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
 }
 
-.malthe h2{
+.malthe h2 {
   font-size: 50px;
   text-align: center;
   max-width: 720px;
   margin: 0 auto;
-  text-transform: uppercase;;
+  text-transform: uppercase;
+  ;
   font-weight: bold;
   color: #f45910;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
 }
 
-
-.intro{
+.intro {
   padding-top: 100px;
   text-align: center;
   max-width: 720px;
@@ -220,11 +210,10 @@ text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
   padding: 0px 25px;
   color: #5e7f7d;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-  font-weight:normal;
+  font-weight: normal;
 }
 
-
-.elever{
+.elever {
   font-size: 50px;
   text-align: center;
   max-width: 720px;
@@ -232,22 +221,23 @@ text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
   color: #f45910;
 }
 
-.eriksminde{
+.eriksminde {
   margin-bottom: 100px
 }
-.eriksminde .container{
+
+.eriksminde .container {
   display: flex;
   justify-content: center;
   padding: 50px 0px;
-
 }
 
-.eriksminde .container p{
+.eriksminde .container p {
   display: flex;
   align-items: center;
   padding: 20px;
 }
-#photo{
+
+#photo {
   height: 700px;
   width: 700px;
   background-image: url(../images/darkphoto.gif);
@@ -257,7 +247,7 @@ text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
   margin-top: 100px;
 }
 
-#photo2{
+#photo2 {
   height: 700px;
   width: 700px;
   background-image: url(../images/hygge.jpg);
@@ -267,7 +257,7 @@ text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
   margin-top: 100px;
 }
 
-#photo3{
+#photo3 {
   height: 700px;
   width: 700px;
   background-image: url(../images/pudekamp.gif);
@@ -277,68 +267,82 @@ text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
   margin-bottom: 50px;
 }
 
-.medier{
+.medier {
   padding: 75px;
   background-color: #f9dcc6;
 }
 
-.medier .elever{
+.medier .elever {
   color: #5e7f7d;
 }
 
-.elev-grid{
+.elev-grid {
   margin-top: 30px;
   margin-bottom: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-
 }
 
 @keyframes goBig {
-  0% {width: 200px; height:200px;}
-  100%  {width: 300px; height:300px;}
+  0% {
+    width: 200px;
+    height: 200px;
+  }
+
+  100% {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 @keyframes goSmall {
-  0% {width: 300px; height:300px;}
-  100%  {width: 200px; height:200px;}
+  0% {
+    width: 300px;
+    height: 300px;
+  }
+
+  100% {
+    width: 200px;
+    height: 200px;
+  }
 }
 
-#elev1{
+#elev1 {
   width: 200px;
   height: 200px;
   border-radius: 100%;
   justify-self: flex-end;
   background-size: cover;
   cursor: pointer;
-  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
 }
-#elev2{
+
+#elev2 {
   width: 200px;
   height: 200px;
   border-radius: 100%;
   background-size: cover;
   cursor: pointer;
-  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
 }
-#elev3{
 
+#elev3 {
   width: 200px;
   height: 200px;
   border-radius: 100%;
   justify-self: flex-start;
   background-size: cover;
   cursor: pointer;
-  box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
 }
 
-#video{
-display: flex;
-justify-content: center;
+#video {
+  display: flex;
+  justify-content: center;
 }
 
-footer{
+footer {
   background-color: #5e7f7d;
   height: 500px;
   color: yellow;
@@ -346,12 +350,11 @@ footer{
   font-size: 50px;
 }
 
-.bike img{
+.bike img {
   width: 100%
-
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
   font-size: 40px;
